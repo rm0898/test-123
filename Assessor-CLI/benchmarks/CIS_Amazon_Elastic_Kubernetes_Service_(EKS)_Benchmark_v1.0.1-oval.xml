@@ -1,0 +1,486 @@
+<oval_definitions xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" xmlns:oval="http://oval.mitre.org/XMLSchema/oval-common-5" xmlns:oval-def="http://oval.mitre.org/XMLSchema/oval-definitions-5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://oval.mitre.org/XMLSchema/oval-definitions-5 https://oval.cisecurity.org/schemas/validator-oval-definitions-5.11.2.xsd">
+  <generator>
+    <oval:product_name>Center for Internet Security - Optimus</oval:product_name>
+    <oval:schema_version>5.11.2</oval:schema_version>
+    <oval:timestamp>2020-09-10T12:49:08.763Z</oval:timestamp>
+  </generator>
+  <definitions>
+    <definition class="compliance" id="oval:org.cisecurity.benchmarks:def:1209233" version="1">
+      <metadata>
+        <title>Ensure that the --read-only-port is secured</title>
+        <reference ref_id="xccdf_org.cisecurity.benchmarks_rule_3.2.4_Ensure_that_the_--read-only-port_is_secured" ref_url="http://benchmarks.cisecurity.org" source="xccdf_org.cisecurity.benchmarks_rule_3.2.4_Ensure_that_the_--read-only-port_is_secured"/>
+        <description>Ensure that the --read-only-port is secured</description>
+      </metadata>
+      <criteria negate="false" operator="AND">
+        <criterion test_ref="oval:org.cisecurity.benchmarks:tst:1209233"/>
+      </criteria>
+    </definition>
+    <definition class="compliance" id="oval:org.cisecurity.benchmarks:def:1209238" version="1">
+      <metadata>
+        <title>Ensure that the --hostname-override argument is not set</title>
+        <reference ref_id="xccdf_org.cisecurity.benchmarks_rule_3.2.8_Ensure_that_the_--hostname-override_argument_is_not_set" ref_url="http://benchmarks.cisecurity.org" source="xccdf_org.cisecurity.benchmarks_rule_3.2.8_Ensure_that_the_--hostname-override_argument_is_not_set"/>
+        <description>Ensure that the --hostname-override argument is not set</description>
+      </metadata>
+      <criteria negate="false" operator="AND">
+        <criterion test_ref="oval:org.cisecurity.benchmarks:tst:1209238"/>
+      </criteria>
+    </definition>
+    <definition class="compliance" id="oval:org.cisecurity.benchmarks:def:1209240" version="1">
+      <metadata>
+        <title>Ensure that the --rotate-certificates argument is not set to false</title>
+        <reference ref_id="xccdf_org.cisecurity.benchmarks_rule_3.2.10_Ensure_that_the_--rotate-certificates_argument_is_not_set_to_false" ref_url="http://benchmarks.cisecurity.org" source="xccdf_org.cisecurity.benchmarks_rule_3.2.10_Ensure_that_the_--rotate-certificates_argument_is_not_set_to_false"/>
+        <description>Ensure that the --rotate-certificates argument is not set to false</description>
+      </metadata>
+      <criteria negate="false" operator="AND">
+        <criterion test_ref="oval:org.cisecurity.benchmarks:tst:1209240"/>
+      </criteria>
+    </definition>
+    <definition class="compliance" id="oval:org.cisecurity.benchmarks:def:1209234" version="1">
+      <metadata>
+        <title>Ensure that the --read-only-port is secured</title>
+        <reference ref_id="xccdf_org.cisecurity.benchmarks_rule_3.2.4_Ensure_that_the_--read-only-port_is_secured" ref_url="http://benchmarks.cisecurity.org" source="xccdf_org.cisecurity.benchmarks_rule_3.2.4_Ensure_that_the_--read-only-port_is_secured"/>
+        <description>Ensure that the --read-only-port is secured</description>
+      </metadata>
+      <criteria negate="false" operator="AND">
+        <criterion test_ref="oval:org.cisecurity.benchmarks:tst:1209234"/>
+      </criteria>
+    </definition>
+    <definition class="compliance" id="oval:org.cisecurity.benchmarks:def:1209241" version="1">
+      <metadata>
+        <title>Ensure that the --rotate-certificates argument is not set to false</title>
+        <reference ref_id="xccdf_org.cisecurity.benchmarks_rule_3.2.10_Ensure_that_the_--rotate-certificates_argument_is_not_set_to_false" ref_url="http://benchmarks.cisecurity.org" source="xccdf_org.cisecurity.benchmarks_rule_3.2.10_Ensure_that_the_--rotate-certificates_argument_is_not_set_to_false"/>
+        <description>Ensure that the --rotate-certificates argument is not set to false</description>
+      </metadata>
+      <criteria negate="false" operator="AND">
+        <criterion test_ref="oval:org.cisecurity.benchmarks:tst:1209241"/>
+      </criteria>
+    </definition>
+    <definition class="compliance" id="oval:org.cisecurity.benchmarks:def:1209243" version="1">
+      <metadata>
+        <title>Minimize the admission of privileged containers</title>
+        <reference ref_id="xccdf_org.cisecurity.benchmarks_rule_4.2.1_Minimize_the_admission_of_privileged_containers" ref_url="http://benchmarks.cisecurity.org" source="xccdf_org.cisecurity.benchmarks_rule_4.2.1_Minimize_the_admission_of_privileged_containers"/>
+        <description>Minimize the admission of privileged containers</description>
+      </metadata>
+      <criteria negate="false" operator="AND">
+        <criterion test_ref="oval:org.cisecurity.benchmarks:tst:1209243"/>
+      </criteria>
+    </definition>
+    <definition class="compliance" id="oval:org.cisecurity.benchmarks:def:1209244" version="1">
+      <metadata>
+        <title>Minimize the admission of containers wishing to share the host process ID namespace</title>
+        <reference ref_id="xccdf_org.cisecurity.benchmarks_rule_4.2.2_Minimize_the_admission_of_containers_wishing_to_share_the_host_process_ID_namespace" ref_url="http://benchmarks.cisecurity.org" source="xccdf_org.cisecurity.benchmarks_rule_4.2.2_Minimize_the_admission_of_containers_wishing_to_share_the_host_process_ID_namespace"/>
+        <description>Minimize the admission of containers wishing to share the host process ID namespace</description>
+      </metadata>
+      <criteria negate="false" operator="AND">
+        <criterion test_ref="oval:org.cisecurity.benchmarks:tst:1209244"/>
+      </criteria>
+    </definition>
+    <definition class="compliance" id="oval:org.cisecurity.benchmarks:def:1209245" version="1">
+      <metadata>
+        <title>Minimize the admission of containers wishing to share the host process ID namespace</title>
+        <reference ref_id="xccdf_org.cisecurity.benchmarks_rule_4.2.2_Minimize_the_admission_of_containers_wishing_to_share_the_host_process_ID_namespace" ref_url="http://benchmarks.cisecurity.org" source="xccdf_org.cisecurity.benchmarks_rule_4.2.2_Minimize_the_admission_of_containers_wishing_to_share_the_host_process_ID_namespace"/>
+        <description>Minimize the admission of containers wishing to share the host process ID namespace</description>
+      </metadata>
+      <criteria negate="true" operator="AND">
+        <criterion test_ref="oval:org.cisecurity.benchmarks:tst:1209245"/>
+      </criteria>
+    </definition>
+    <definition class="compliance" id="oval:org.cisecurity.benchmarks:def:1209246" version="1">
+      <metadata>
+        <title>Minimize the admission of containers wishing to share the host IPC namespace</title>
+        <reference ref_id="xccdf_org.cisecurity.benchmarks_rule_4.2.3_Minimize_the_admission_of_containers_wishing_to_share_the_host_IPC_namespace" ref_url="http://benchmarks.cisecurity.org" source="xccdf_org.cisecurity.benchmarks_rule_4.2.3_Minimize_the_admission_of_containers_wishing_to_share_the_host_IPC_namespace"/>
+        <description>Minimize the admission of containers wishing to share the host IPC namespace</description>
+      </metadata>
+      <criteria negate="false" operator="AND">
+        <criterion test_ref="oval:org.cisecurity.benchmarks:tst:1209246"/>
+      </criteria>
+    </definition>
+    <definition class="compliance" id="oval:org.cisecurity.benchmarks:def:1209247" version="1">
+      <metadata>
+        <title>Minimize the admission of containers wishing to share the host IPC namespace</title>
+        <reference ref_id="xccdf_org.cisecurity.benchmarks_rule_4.2.3_Minimize_the_admission_of_containers_wishing_to_share_the_host_IPC_namespace" ref_url="http://benchmarks.cisecurity.org" source="xccdf_org.cisecurity.benchmarks_rule_4.2.3_Minimize_the_admission_of_containers_wishing_to_share_the_host_IPC_namespace"/>
+        <description>Minimize the admission of containers wishing to share the host IPC namespace</description>
+      </metadata>
+      <criteria negate="true" operator="AND">
+        <criterion test_ref="oval:org.cisecurity.benchmarks:tst:1209247"/>
+      </criteria>
+    </definition>
+    <definition class="compliance" id="oval:org.cisecurity.benchmarks:def:1209248" version="1">
+      <metadata>
+        <title>Minimize the admission of containers wishing to share the host network namespace</title>
+        <reference ref_id="xccdf_org.cisecurity.benchmarks_rule_4.2.4_Minimize_the_admission_of_containers_wishing_to_share_the_host_network_namespace" ref_url="http://benchmarks.cisecurity.org" source="xccdf_org.cisecurity.benchmarks_rule_4.2.4_Minimize_the_admission_of_containers_wishing_to_share_the_host_network_namespace"/>
+        <description>Minimize the admission of containers wishing to share the host network namespace</description>
+      </metadata>
+      <criteria negate="false" operator="AND">
+        <criterion test_ref="oval:org.cisecurity.benchmarks:tst:1209248"/>
+      </criteria>
+    </definition>
+    <definition class="compliance" id="oval:org.cisecurity.benchmarks:def:1209249" version="1">
+      <metadata>
+        <title>Minimize the admission of containers wishing to share the host network namespace</title>
+        <reference ref_id="xccdf_org.cisecurity.benchmarks_rule_4.2.4_Minimize_the_admission_of_containers_wishing_to_share_the_host_network_namespace" ref_url="http://benchmarks.cisecurity.org" source="xccdf_org.cisecurity.benchmarks_rule_4.2.4_Minimize_the_admission_of_containers_wishing_to_share_the_host_network_namespace"/>
+        <description>Minimize the admission of containers wishing to share the host network namespace</description>
+      </metadata>
+      <criteria negate="true" operator="AND">
+        <criterion test_ref="oval:org.cisecurity.benchmarks:tst:1209249"/>
+      </criteria>
+    </definition>
+    <definition class="compliance" id="oval:org.cisecurity.benchmarks:def:1209250" version="1">
+      <metadata>
+        <title>Minimize the admission of containers with allowPrivilegeEscalation</title>
+        <reference ref_id="xccdf_org.cisecurity.benchmarks_rule_4.2.5_Minimize_the_admission_of_containers_with_allowPrivilegeEscalation" ref_url="http://benchmarks.cisecurity.org" source="xccdf_org.cisecurity.benchmarks_rule_4.2.5_Minimize_the_admission_of_containers_with_allowPrivilegeEscalation"/>
+        <description>Minimize the admission of containers with allowPrivilegeEscalation</description>
+      </metadata>
+      <criteria negate="false" operator="AND">
+        <criterion test_ref="oval:org.cisecurity.benchmarks:tst:1209250"/>
+      </criteria>
+    </definition>
+    <definition class="compliance" id="oval:org.cisecurity.benchmarks:def:1209251" version="1">
+      <metadata>
+        <title>Minimize the admission of containers with allowPrivilegeEscalation</title>
+        <reference ref_id="xccdf_org.cisecurity.benchmarks_rule_4.2.5_Minimize_the_admission_of_containers_with_allowPrivilegeEscalation" ref_url="http://benchmarks.cisecurity.org" source="xccdf_org.cisecurity.benchmarks_rule_4.2.5_Minimize_the_admission_of_containers_with_allowPrivilegeEscalation"/>
+        <description>Minimize the admission of containers with allowPrivilegeEscalation</description>
+      </metadata>
+      <criteria negate="true" operator="AND">
+        <criterion test_ref="oval:org.cisecurity.benchmarks:tst:1209251"/>
+      </criteria>
+    </definition>
+    <definition class="compliance" id="oval:org.cisecurity.benchmarks:def:1209252" version="1">
+      <metadata>
+        <title>Minimize the admission of root containers</title>
+        <reference ref_id="xccdf_org.cisecurity.benchmarks_rule_4.2.6_Minimize_the_admission_of_root_containers" ref_url="http://benchmarks.cisecurity.org" source="xccdf_org.cisecurity.benchmarks_rule_4.2.6_Minimize_the_admission_of_root_containers"/>
+        <description>Minimize the admission of root containers</description>
+      </metadata>
+      <criteria negate="false" operator="AND">
+        <criterion test_ref="oval:org.cisecurity.benchmarks:tst:1209252"/>
+      </criteria>
+    </definition>
+    <definition class="compliance" id="oval:org.cisecurity.benchmarks:def:1209253" version="1">
+      <metadata>
+        <title>Minimize the admission of root containers</title>
+        <reference ref_id="xccdf_org.cisecurity.benchmarks_rule_4.2.6_Minimize_the_admission_of_root_containers" ref_url="http://benchmarks.cisecurity.org" source="xccdf_org.cisecurity.benchmarks_rule_4.2.6_Minimize_the_admission_of_root_containers"/>
+        <description>Minimize the admission of root containers</description>
+      </metadata>
+      <criteria negate="false" operator="AND">
+        <criterion test_ref="oval:org.cisecurity.benchmarks:tst:1209253"/>
+      </criteria>
+    </definition>
+    <definition class="compliance" id="oval:org.cisecurity.benchmarks:def:1209254" version="1">
+      <metadata>
+        <title>Minimize the admission of containers with the NET_RAW capability</title>
+        <reference ref_id="xccdf_org.cisecurity.benchmarks_rule_4.2.7_Minimize_the_admission_of_containers_with_the_NET_RAW_capability" ref_url="http://benchmarks.cisecurity.org" source="xccdf_org.cisecurity.benchmarks_rule_4.2.7_Minimize_the_admission_of_containers_with_the_NET_RAW_capability"/>
+        <description>Minimize the admission of containers with the NET_RAW capability</description>
+      </metadata>
+      <criteria negate="false" operator="AND">
+        <criterion test_ref="oval:org.cisecurity.benchmarks:tst:1209254"/>
+      </criteria>
+    </definition>
+    <definition class="compliance" id="oval:org.cisecurity.benchmarks:def:1209255" version="1">
+      <metadata>
+        <title>Minimize the admission of containers with the NET_RAW capability</title>
+        <reference ref_id="xccdf_org.cisecurity.benchmarks_rule_4.2.7_Minimize_the_admission_of_containers_with_the_NET_RAW_capability" ref_url="http://benchmarks.cisecurity.org" source="xccdf_org.cisecurity.benchmarks_rule_4.2.7_Minimize_the_admission_of_containers_with_the_NET_RAW_capability"/>
+        <description>Minimize the admission of containers with the NET_RAW capability</description>
+      </metadata>
+      <criteria negate="false" operator="AND">
+        <criterion test_ref="oval:org.cisecurity.benchmarks:tst:1209255"/>
+      </criteria>
+    </definition>
+    <definition class="compliance" id="oval:org.cisecurity.benchmarks:def:1209256" version="1">
+      <metadata>
+        <title>Minimize the admission of containers with added capabilities</title>
+        <reference ref_id="xccdf_org.cisecurity.benchmarks_rule_4.2.8_Minimize_the_admission_of_containers_with_added_capabilities" ref_url="http://benchmarks.cisecurity.org" source="xccdf_org.cisecurity.benchmarks_rule_4.2.8_Minimize_the_admission_of_containers_with_added_capabilities"/>
+        <description>Minimize the admission of containers with added capabilities</description>
+      </metadata>
+      <criteria negate="true" operator="AND">
+        <criterion test_ref="oval:org.cisecurity.benchmarks:tst:1209256"/>
+      </criteria>
+    </definition>
+  </definitions>
+  <tests>
+    <process58_test xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#unix" check="all" check_existence="at_least_one_exists" comment="Ensure that the --read-only-port argument is set to 0" id="oval:org.cisecurity.benchmarks:tst:1209233" version="1">
+      <object object_ref="oval:org.cisecurity.benchmarks:obj:1209233"/>
+      <state state_ref="oval:org.cisecurity.benchmarks:ste:1209233"/>
+    </process58_test>
+    <process58_test xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#unix" check="none satisfy" check_existence="any_exist" comment="Ensure that the --hostname-override argument is not set" id="oval:org.cisecurity.benchmarks:tst:1209238" version="1">
+      <object object_ref="oval:org.cisecurity.benchmarks:obj:1209238"/>
+      <state state_ref="oval:org.cisecurity.benchmarks:ste:1209238"/>
+    </process58_test>
+    <process58_test xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#unix" check="all" check_existence="at_least_one_exists" comment="Ensure that the --rotate-certificates argument is not set to false" id="oval:org.cisecurity.benchmarks:tst:1209240" version="1">
+      <object object_ref="oval:org.cisecurity.benchmarks:obj:1209240"/>
+      <state state_ref="oval:org.cisecurity.benchmarks:ste:1209240"/>
+    </process58_test>
+    <textfilecontent54_test xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent" check="all" check_existence="at_least_one_exists" comment="Ensure at least one file named /etc/systemd/system/kubelet.service.d/10-kubeadm.conf exists and matches pattern ^.*KUBELET_SYSTEM_PODS_ARGS.+--read-only-port=0.+$" id="oval:org.cisecurity.benchmarks:tst:1209234" version="1">
+      <object object_ref="oval:org.cisecurity.benchmarks:obj:1209234"/>
+    </textfilecontent54_test>
+    <textfilecontent54_test xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent" check="all" check_existence="at_least_one_exists" comment="Ensure at least one file named /etc/systemd/system/kubelet.service.d/10-kubeadm.conf exists and matches pattern ^.*KUBELET_CERTIFICATE_ARGS.+--rotate-certificates=true.+$" id="oval:org.cisecurity.benchmarks:tst:1209241" version="1">
+      <object object_ref="oval:org.cisecurity.benchmarks:obj:1209241"/>
+    </textfilecontent54_test>
+    <shellcommand_test xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#cmd" check="all" check_existence="at_least_one_exists" comment="Minimize the admission of privileged containers" id="oval:org.cisecurity.benchmarks:tst:1209243" version="1">
+      <object object_ref="oval:org.cisecurity.benchmarks:obj:1209243"/>
+      <state state_ref="oval:org.cisecurity.benchmarks:ste:1209243"/>
+    </shellcommand_test>
+    <shellcommand_test xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#cmd" check="all" check_existence="at_least_one_exists" comment="Ensure 'kubectl get psp -o json' output Pattern Match 'hostPID..:false' (string)" id="oval:org.cisecurity.benchmarks:tst:1209244" version="1">
+      <object object_ref="oval:org.cisecurity.benchmarks:obj:1209244"/>
+      <state state_ref="oval:org.cisecurity.benchmarks:ste:1209244"/>
+    </shellcommand_test>
+    <shellcommand_test xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#cmd" check="all" check_existence="at_least_one_exists" comment="Ensure 'kubectl get psp -o json' output Pattern Not Match 'hostPID' (string)" id="oval:org.cisecurity.benchmarks:tst:1209245" version="1">
+      <object object_ref="oval:org.cisecurity.benchmarks:obj:1209245"/>
+      <state state_ref="oval:org.cisecurity.benchmarks:ste:1209245"/>
+    </shellcommand_test>
+    <shellcommand_test xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#cmd" check="all" check_existence="at_least_one_exists" comment="Ensure 'kubectl get psp -o=json' output Pattern Match 'hostIPC..:false' (string)" id="oval:org.cisecurity.benchmarks:tst:1209246" version="1">
+      <object object_ref="oval:org.cisecurity.benchmarks:obj:1209246"/>
+      <state state_ref="oval:org.cisecurity.benchmarks:ste:1209246"/>
+    </shellcommand_test>
+    <shellcommand_test xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#cmd" check="all" check_existence="at_least_one_exists" comment="Ensure 'kubectl get psp -o=json' output Pattern Not Match 'hostIPC' (string)" id="oval:org.cisecurity.benchmarks:tst:1209247" version="1">
+      <object object_ref="oval:org.cisecurity.benchmarks:obj:1209247"/>
+      <state state_ref="oval:org.cisecurity.benchmarks:ste:1209247"/>
+    </shellcommand_test>
+    <shellcommand_test xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#cmd" check="all" check_existence="at_least_one_exists" comment="Ensure 'kubectl get psp -o=json' output Pattern Match 'hostNetwork..:false' (string)" id="oval:org.cisecurity.benchmarks:tst:1209248" version="1">
+      <object object_ref="oval:org.cisecurity.benchmarks:obj:1209248"/>
+      <state state_ref="oval:org.cisecurity.benchmarks:ste:1209248"/>
+    </shellcommand_test>
+    <shellcommand_test xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#cmd" check="all" check_existence="at_least_one_exists" comment="Ensure 'kubectl get psp -o=json' output Pattern Not Match 'hostNetwork' (string)" id="oval:org.cisecurity.benchmarks:tst:1209249" version="1">
+      <object object_ref="oval:org.cisecurity.benchmarks:obj:1209249"/>
+      <state state_ref="oval:org.cisecurity.benchmarks:ste:1209249"/>
+    </shellcommand_test>
+    <shellcommand_test xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#cmd" check="all" check_existence="at_least_one_exists" comment="Ensure 'kubectl get psp -o=json' output Pattern Match 'allowPrivilegeEscalation...false' (string)" id="oval:org.cisecurity.benchmarks:tst:1209250" version="1">
+      <object object_ref="oval:org.cisecurity.benchmarks:obj:1209250"/>
+      <state state_ref="oval:org.cisecurity.benchmarks:ste:1209250"/>
+    </shellcommand_test>
+    <shellcommand_test xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#cmd" check="all" check_existence="at_least_one_exists" comment="Ensure 'kubectl get psp -o=json' output Pattern Not Match 'allowPrivilegeEscalation' (string)" id="oval:org.cisecurity.benchmarks:tst:1209251" version="1">
+      <object object_ref="oval:org.cisecurity.benchmarks:obj:1209251"/>
+      <state state_ref="oval:org.cisecurity.benchmarks:ste:1209251"/>
+    </shellcommand_test>
+    <shellcommand_test xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#cmd" check="all" check_existence="at_least_one_exists" comment="Ensure 'kubectl get psp -o=json' output Pattern Match 'MustRunAsNonRoot' (string)" id="oval:org.cisecurity.benchmarks:tst:1209252" version="1">
+      <object object_ref="oval:org.cisecurity.benchmarks:obj:1209252"/>
+      <state state_ref="oval:org.cisecurity.benchmarks:ste:1209252"/>
+    </shellcommand_test>
+    <shellcommand_test xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#cmd" check="all" check_existence="at_least_one_exists" comment="Ensure 'kubectl get psp -o=json' output Pattern Match 'MustRunAs' (string)" id="oval:org.cisecurity.benchmarks:tst:1209253" version="1">
+      <object object_ref="oval:org.cisecurity.benchmarks:obj:1209253"/>
+      <state state_ref="oval:org.cisecurity.benchmarks:ste:1209253"/>
+    </shellcommand_test>
+    <shellcommand_test xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#cmd" check="all" check_existence="at_least_one_exists" comment="Ensure 'kubectl get psp -o=json' output Pattern Match 'requiredDropCapabilities......NET_RAW' (string)" id="oval:org.cisecurity.benchmarks:tst:1209254" version="1">
+      <object object_ref="oval:org.cisecurity.benchmarks:obj:1209254"/>
+      <state state_ref="oval:org.cisecurity.benchmarks:ste:1209254"/>
+    </shellcommand_test>
+    <shellcommand_test xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#cmd" check="all" check_existence="at_least_one_exists" comment="Ensure 'kubectl get psp -o=json' output Pattern Match 'requiredDropCapabilities......ALL' (string)" id="oval:org.cisecurity.benchmarks:tst:1209255" version="1">
+      <object object_ref="oval:org.cisecurity.benchmarks:obj:1209255"/>
+      <state state_ref="oval:org.cisecurity.benchmarks:ste:1209255"/>
+    </shellcommand_test>
+    <shellcommand_test xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#cmd" check="all" check_existence="at_least_one_exists" comment="Ensure 'kubectl get psp -o=json' output Pattern Not Match 'allowedCapabilities' (string)" id="oval:org.cisecurity.benchmarks:tst:1209256" version="1">
+      <object object_ref="oval:org.cisecurity.benchmarks:obj:1209256"/>
+      <state state_ref="oval:org.cisecurity.benchmarks:ste:1209256"/>
+    </shellcommand_test>
+  </tests>
+  <objects>
+    <process58_object xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#unix" comment="Ensure that the --read-only-port argument is set to 0" id="oval:org.cisecurity.benchmarks:obj:1209233" version="1">
+      <command_line operation="pattern match">kubelet</command_line>
+      <pid datatype="int" operation="greater than">0</pid>
+    </process58_object>
+    <process58_object xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#unix" comment="Ensure that the --hostname-override argument is not set" id="oval:org.cisecurity.benchmarks:obj:1209238" version="1">
+      <command_line operation="pattern match">kubelet</command_line>
+      <pid datatype="int" operation="greater than">0</pid>
+    </process58_object>
+    <process58_object xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#unix" comment="Ensure that the --rotate-certificates argument is not set to false" id="oval:org.cisecurity.benchmarks:obj:1209240" version="1">
+      <command_line operation="pattern match">kubelet</command_line>
+      <pid datatype="int" operation="greater than">0</pid>
+    </process58_object>
+    <textfilecontent54_object xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent" comment="Ensure at least one file named /etc/systemd/system/kubelet.service.d/10-kubeadm.conf exists and matches pattern ^.*KUBELET_SYSTEM_PODS_ARGS.+--read-only-port=0.+$" id="oval:org.cisecurity.benchmarks:obj:1209234" version="1">
+      <filepath>/etc/systemd/system/kubelet.service.d/10-kubeadm.conf</filepath>
+      <pattern datatype="string" operation="pattern match">^.*KUBELET_SYSTEM_PODS_ARGS.+--read-only-port=0.+$</pattern>
+      <instance datatype="int" operation="equals">1</instance>
+    </textfilecontent54_object>
+    <textfilecontent54_object xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent" comment="Ensure at least one file named /etc/systemd/system/kubelet.service.d/10-kubeadm.conf exists and matches pattern ^.*KUBELET_CERTIFICATE_ARGS.+--rotate-certificates=true.+$" id="oval:org.cisecurity.benchmarks:obj:1209241" version="1">
+      <filepath>/etc/systemd/system/kubelet.service.d/10-kubeadm.conf</filepath>
+      <pattern datatype="string" operation="pattern match">^.*KUBELET_CERTIFICATE_ARGS.+--rotate-certificates=true.+$</pattern>
+      <instance datatype="int" operation="equals">1</instance>
+    </textfilecontent54_object>
+    <shellcommand_object xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#cmd" comment="Minimize the admission of privileged containers" id="oval:org.cisecurity.benchmarks:obj:1209243" version="1">
+      <command>kubectl get psp -o json</command>
+      <line_selection operation="pattern match">.+</line_selection>
+    </shellcommand_object>
+    <shellcommand_object xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#cmd" comment="Ensure 'kubectl get psp -o json' output Pattern Match 'hostPID..:false' (string)" id="oval:org.cisecurity.benchmarks:obj:1209244" version="1">
+      <command>kubectl get psp -o json</command>
+      <line_selection operation="pattern match">.+</line_selection>
+    </shellcommand_object>
+    <shellcommand_object xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#cmd" comment="Ensure 'kubectl get psp -o json' output Pattern Not Match 'hostPID' (string)" id="oval:org.cisecurity.benchmarks:obj:1209245" version="1">
+      <command>kubectl get psp -o json</command>
+      <line_selection operation="pattern match">.+</line_selection>
+    </shellcommand_object>
+    <shellcommand_object xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#cmd" comment="Ensure 'kubectl get psp -o=json' output Pattern Match 'hostIPC..:false' (string)" id="oval:org.cisecurity.benchmarks:obj:1209246" version="1">
+      <command>kubectl get psp -o=json</command>
+      <line_selection operation="pattern match">.+</line_selection>
+    </shellcommand_object>
+    <shellcommand_object xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#cmd" comment="Ensure 'kubectl get psp -o=json' output Pattern Not Match 'hostIPC' (string)" id="oval:org.cisecurity.benchmarks:obj:1209247" version="1">
+      <command>kubectl get psp -o=json</command>
+      <line_selection operation="pattern match">.+</line_selection>
+    </shellcommand_object>
+    <shellcommand_object xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#cmd" comment="Ensure 'kubectl get psp -o=json' output Pattern Match 'hostNetwork..:false' (string)" id="oval:org.cisecurity.benchmarks:obj:1209248" version="1">
+      <command>kubectl get psp -o=json</command>
+      <line_selection operation="pattern match">.+</line_selection>
+    </shellcommand_object>
+    <shellcommand_object xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#cmd" comment="Ensure 'kubectl get psp -o=json' output Pattern Not Match 'hostNetwork' (string)" id="oval:org.cisecurity.benchmarks:obj:1209249" version="1">
+      <command>kubectl get psp -o=json</command>
+      <line_selection operation="pattern match">.+</line_selection>
+    </shellcommand_object>
+    <shellcommand_object xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#cmd" comment="Ensure 'kubectl get psp -o=json' output Pattern Match 'allowPrivilegeEscalation...false' (string)" id="oval:org.cisecurity.benchmarks:obj:1209250" version="1">
+      <command>kubectl get psp -o=json</command>
+      <line_selection operation="pattern match">.+</line_selection>
+    </shellcommand_object>
+    <shellcommand_object xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#cmd" comment="Ensure 'kubectl get psp -o=json' output Pattern Not Match 'allowPrivilegeEscalation' (string)" id="oval:org.cisecurity.benchmarks:obj:1209251" version="1">
+      <command>kubectl get psp -o=json</command>
+      <line_selection operation="pattern match">.+</line_selection>
+    </shellcommand_object>
+    <shellcommand_object xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#cmd" comment="Ensure 'kubectl get psp -o=json' output Pattern Match 'MustRunAsNonRoot' (string)" id="oval:org.cisecurity.benchmarks:obj:1209252" version="1">
+      <command>kubectl get psp -o=json</command>
+      <line_selection operation="pattern match">.+</line_selection>
+    </shellcommand_object>
+    <shellcommand_object xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#cmd" comment="Ensure 'kubectl get psp -o=json' output Pattern Match 'MustRunAs' (string)" id="oval:org.cisecurity.benchmarks:obj:1209253" version="1">
+      <command>kubectl get psp -o=json</command>
+      <line_selection operation="pattern match">.+</line_selection>
+    </shellcommand_object>
+    <shellcommand_object xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#cmd" comment="Ensure 'kubectl get psp -o=json' output Pattern Match 'requiredDropCapabilities......NET_RAW' (string)" id="oval:org.cisecurity.benchmarks:obj:1209254" version="1">
+      <command>kubectl get psp -o=json</command>
+      <line_selection operation="pattern match">.+</line_selection>
+    </shellcommand_object>
+    <shellcommand_object xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#cmd" comment="Ensure 'kubectl get psp -o=json' output Pattern Match 'requiredDropCapabilities......ALL' (string)" id="oval:org.cisecurity.benchmarks:obj:1209255" version="1">
+      <command>kubectl get psp -o=json</command>
+      <line_selection operation="pattern match">.+</line_selection>
+    </shellcommand_object>
+    <shellcommand_object xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#cmd" comment="Ensure 'kubectl get psp -o=json' output Pattern Not Match 'allowedCapabilities' (string)" id="oval:org.cisecurity.benchmarks:obj:1209256" version="1">
+      <command>kubectl get psp -o=json</command>
+      <line_selection operation="pattern match">.+</line_selection>
+    </shellcommand_object>
+  </objects>
+  <states>
+    <process58_state xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#unix" comment="Ensure that the --read-only-port argument is set to 0" id="oval:org.cisecurity.benchmarks:ste:1209233" version="1">
+      <command_line datatype="string" operation="pattern match">--read-only-port=0</command_line>
+    </process58_state>
+    <process58_state xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#unix" comment="Ensure that the --hostname-override argument is not set" id="oval:org.cisecurity.benchmarks:ste:1209238" version="1">
+      <command_line datatype="string" operation="pattern match">--hostname-override</command_line>
+    </process58_state>
+    <process58_state xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#unix" comment="Ensure that the --rotate-certificates argument is not set to false" id="oval:org.cisecurity.benchmarks:ste:1209240" version="1">
+      <command_line datatype="string" operation="pattern match">--rotate-certificates=true</command_line>
+    </process58_state>
+    <shellcommand_state xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#cmd" comment="Minimize the admission of privileged containers" id="oval:org.cisecurity.benchmarks:ste:1209243" version="1">
+      <stdout_line entity_check="at least one" operation="pattern match" var_ref="oval:org.cisecurity.benchmarks:var:1209243"/>
+    </shellcommand_state>
+    <shellcommand_state xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#cmd" comment="Ensure 'kubectl get psp -o json' output Pattern Match 'hostPID..:false' (string)" id="oval:org.cisecurity.benchmarks:ste:1209244" version="1">
+      <stdout_line entity_check="at least one" operation="pattern match" var_ref="oval:org.cisecurity.benchmarks:var:1209244"/>
+    </shellcommand_state>
+    <shellcommand_state xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#cmd" comment="Ensure 'kubectl get psp -o json' output Pattern Not Match 'hostPID' (string)" id="oval:org.cisecurity.benchmarks:ste:1209245" version="1">
+      <stdout_line entity_check="at least one" operation="pattern match" var_ref="oval:org.cisecurity.benchmarks:var:1209245"/>
+    </shellcommand_state>
+    <shellcommand_state xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#cmd" comment="Ensure 'kubectl get psp -o=json' output Pattern Match 'hostIPC..:false' (string)" id="oval:org.cisecurity.benchmarks:ste:1209246" version="1">
+      <stdout_line entity_check="at least one" operation="pattern match" var_ref="oval:org.cisecurity.benchmarks:var:1209246"/>
+    </shellcommand_state>
+    <shellcommand_state xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#cmd" comment="Ensure 'kubectl get psp -o=json' output Pattern Not Match 'hostIPC' (string)" id="oval:org.cisecurity.benchmarks:ste:1209247" version="1">
+      <stdout_line entity_check="at least one" operation="pattern match" var_ref="oval:org.cisecurity.benchmarks:var:1209247"/>
+    </shellcommand_state>
+    <shellcommand_state xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#cmd" comment="Ensure 'kubectl get psp -o=json' output Pattern Match 'hostNetwork..:false' (string)" id="oval:org.cisecurity.benchmarks:ste:1209248" version="1">
+      <stdout_line entity_check="at least one" operation="pattern match" var_ref="oval:org.cisecurity.benchmarks:var:1209248"/>
+    </shellcommand_state>
+    <shellcommand_state xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#cmd" comment="Ensure 'kubectl get psp -o=json' output Pattern Not Match 'hostNetwork' (string)" id="oval:org.cisecurity.benchmarks:ste:1209249" version="1">
+      <stdout_line entity_check="at least one" operation="pattern match" var_ref="oval:org.cisecurity.benchmarks:var:1209249"/>
+    </shellcommand_state>
+    <shellcommand_state xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#cmd" comment="Ensure 'kubectl get psp -o=json' output Pattern Match 'allowPrivilegeEscalation...false' (string)" id="oval:org.cisecurity.benchmarks:ste:1209250" version="1">
+      <stdout_line entity_check="at least one" operation="pattern match" var_ref="oval:org.cisecurity.benchmarks:var:1209250"/>
+    </shellcommand_state>
+    <shellcommand_state xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#cmd" comment="Ensure 'kubectl get psp -o=json' output Pattern Not Match 'allowPrivilegeEscalation' (string)" id="oval:org.cisecurity.benchmarks:ste:1209251" version="1">
+      <stdout_line entity_check="at least one" operation="pattern match" var_ref="oval:org.cisecurity.benchmarks:var:1209251"/>
+    </shellcommand_state>
+    <shellcommand_state xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#cmd" comment="Ensure 'kubectl get psp -o=json' output Pattern Match 'MustRunAsNonRoot' (string)" id="oval:org.cisecurity.benchmarks:ste:1209252" version="1">
+      <stdout_line entity_check="at least one" operation="pattern match" var_ref="oval:org.cisecurity.benchmarks:var:1209252"/>
+    </shellcommand_state>
+    <shellcommand_state xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#cmd" comment="Ensure 'kubectl get psp -o=json' output Pattern Match 'MustRunAs' (string)" id="oval:org.cisecurity.benchmarks:ste:1209253" version="1">
+      <stdout_line entity_check="at least one" operation="pattern match" var_ref="oval:org.cisecurity.benchmarks:var:1209253"/>
+    </shellcommand_state>
+    <shellcommand_state xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#cmd" comment="Ensure 'kubectl get psp -o=json' output Pattern Match 'requiredDropCapabilities......NET_RAW' (string)" id="oval:org.cisecurity.benchmarks:ste:1209254" version="1">
+      <stdout_line entity_check="at least one" operation="pattern match" var_ref="oval:org.cisecurity.benchmarks:var:1209254"/>
+    </shellcommand_state>
+    <shellcommand_state xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#cmd" comment="Ensure 'kubectl get psp -o=json' output Pattern Match 'requiredDropCapabilities......ALL' (string)" id="oval:org.cisecurity.benchmarks:ste:1209255" version="1">
+      <stdout_line entity_check="at least one" operation="pattern match" var_ref="oval:org.cisecurity.benchmarks:var:1209255"/>
+    </shellcommand_state>
+    <shellcommand_state xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#cmd" comment="Ensure 'kubectl get psp -o=json' output Pattern Not Match 'allowedCapabilities' (string)" id="oval:org.cisecurity.benchmarks:ste:1209256" version="1">
+      <stdout_line entity_check="at least one" operation="pattern match" var_ref="oval:org.cisecurity.benchmarks:var:1209256"/>
+    </shellcommand_state>
+  </states>
+  <variables>
+    <external_variable comment="This value is used in Rule: Minimize the admission of privileged containers" datatype="string" id="oval:org.cisecurity.benchmarks:var:1209243" version="1"/>
+    <external_variable comment="This value is used in Rule: Minimize the admission of containers wishing to share the host process ID namespace" datatype="string" id="oval:org.cisecurity.benchmarks:var:1209244" version="1"/>
+    <external_variable comment="This value is used in Rule: Minimize the admission of containers wishing to share the host process ID namespace" datatype="string" id="oval:org.cisecurity.benchmarks:var:1209245" version="1"/>
+    <external_variable comment="This value is used in Rule: Minimize the admission of containers wishing to share the host IPC namespace" datatype="string" id="oval:org.cisecurity.benchmarks:var:1209246" version="1"/>
+    <external_variable comment="This value is used in Rule: Minimize the admission of containers wishing to share the host IPC namespace" datatype="string" id="oval:org.cisecurity.benchmarks:var:1209247" version="1"/>
+    <external_variable comment="This value is used in Rule: Minimize the admission of containers wishing to share the host network namespace" datatype="string" id="oval:org.cisecurity.benchmarks:var:1209248" version="1"/>
+    <external_variable comment="This value is used in Rule: Minimize the admission of containers wishing to share the host network namespace" datatype="string" id="oval:org.cisecurity.benchmarks:var:1209249" version="1"/>
+    <external_variable comment="This value is used in Rule: Minimize the admission of containers with allowPrivilegeEscalation" datatype="string" id="oval:org.cisecurity.benchmarks:var:1209250" version="1"/>
+    <external_variable comment="This value is used in Rule: Minimize the admission of containers with allowPrivilegeEscalation" datatype="string" id="oval:org.cisecurity.benchmarks:var:1209251" version="1"/>
+    <external_variable comment="This value is used in Rule: Minimize the admission of root containers" datatype="string" id="oval:org.cisecurity.benchmarks:var:1209252" version="1"/>
+    <external_variable comment="This value is used in Rule: Minimize the admission of root containers" datatype="string" id="oval:org.cisecurity.benchmarks:var:1209253" version="1"/>
+    <external_variable comment="This value is used in Rule: Minimize the admission of containers with the NET_RAW capability" datatype="string" id="oval:org.cisecurity.benchmarks:var:1209254" version="1"/>
+    <external_variable comment="This value is used in Rule: Minimize the admission of containers with the NET_RAW capability" datatype="string" id="oval:org.cisecurity.benchmarks:var:1209255" version="1"/>
+    <external_variable comment="This value is used in Rule: Minimize the admission of containers with added capabilities" datatype="string" id="oval:org.cisecurity.benchmarks:var:1209256" version="1"/>
+  </variables>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<ds:Reference URI="">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>48IOMBSL5z1eSIekXLTtxj+zIcU=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+BOd9JkxMMgDqNEB83PZv1V/oseEABLmqEs8+OXk443aV+kd6UMNXwUSaYdNe9Vy/hMMw+9IhEM6L
+sMKIPTegCDdquqilx8wmejekOsk2F87LRBxXbyl5y2R+EH4ErGtdMnpW/xXVsi9trull60KR12KW
+1NZNKTfYe4T2hlDKYqoxsUsJ2DlX5nrGUqvnx7OBVXauiW+Gh3q4dXTLb/zpxi7rOT31q4MsinRT
+3yFkHLstItH0B5k1Bxt1TPCF0D6npYFm9Aug2YwJ3lg/TtR3zAJFiKACwM8T47Dsrlq5BlRsmvN3
+j6wXLwCzfwmOXylIik+Vy/7PVj2AUHhI46rviQ==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIFRzCCBC+gAwIBAgIHTwpN/4tOfDANBgkqhkiG9w0BAQsFADCBtDELMAkGA1UEBhMCVVMxEDAO
+BgNVBAgTB0FyaXpvbmExEzARBgNVBAcTClNjb3R0c2RhbGUxGjAYBgNVBAoTEUdvRGFkZHkuY29t
+LCBJbmMuMS0wKwYDVQQLEyRodHRwOi8vY2VydHMuZ29kYWRkeS5jb20vcmVwb3NpdG9yeS8xMzAx
+BgNVBAMTKkdvIERhZGR5IFNlY3VyZSBDZXJ0aWZpY2F0ZSBBdXRob3JpdHkgLSBHMjAeFw0xNDA5
+MTgxNDM0MjFaFw0xNzEwMjAxODU3NDRaMIGTMQswCQYDVQQGEwJVUzERMA8GA1UECBMITmV3IFlv
+cmsxFzAVBgNVBAcTDkVhc3QgR3JlZW5idXNoMSswKQYDVQQKEyJDZW50ZXIgZm9yIEludGVybmV0
+IFNlY3VyaXR5LCBJbmMuMSswKQYDVQQDEyJDZW50ZXIgZm9yIEludGVybmV0IFNlY3VyaXR5LCBJ
+bmMuMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0MGnj6yX2QHklGadAfTBxssvP+2f
+YegPpNGXfEmPXZXrWeME2BqIbO+hKXTuwUucRK6RvQJTjgzNgOhQx3HcclRwQB4xj/14hOoZSeQ3
+haw/Xjl4WofsWizM5j/g1iWBgxi3xk/aREfKKb0ulBMtP/WYFpSRjZ/Z7m5QKii0feJPxbf+wrZ+
+UvNZ8uBdO+SEmbhS/DVESsEWzXn6StbQpa2dno2aIOGZXQKcUY2d3WZ4Zk+zawFcRUYslVIrOhMb
+0e3+hbJEtFwm5ekehdNimSozYyyLGZJonLlvr8PfmvQ1ceu7enWCRfZrRWAlDHFaouLdtU/OmXc+
+Um7cLwz8VQIDAQABo4IBezCCAXcwDAYDVR0TAQH/BAIwADATBgNVHSUEDDAKBggrBgEFBQcDAzAO
+BgNVHQ8BAf8EBAMCB4AwNQYDVR0fBC4wLDAqoCigJoYkaHR0cDovL2NybC5nb2RhZGR5LmNvbS9n
+ZGlnMnM1LTAuY3JsMFMGA1UdIARMMEowSAYLYIZIAYb9bQEHFwIwOTA3BggrBgEFBQcCARYraHR0
+cDovL2NlcnRpZmljYXRlcy5nb2RhZGR5LmNvbS9yZXBvc2l0b3J5LzB2BggrBgEFBQcBAQRqMGgw
+JAYIKwYBBQUHMAGGGGh0dHA6Ly9vY3NwLmdvZGFkZHkuY29tLzBABggrBgEFBQcwAoY0aHR0cDov
+L2NlcnRpZmljYXRlcy5nb2RhZGR5LmNvbS9yZXBvc2l0b3J5L2dkaWcyLmNydDAfBgNVHSMEGDAW
+gBRAwr0njsw0gzCiM9f7bLPwtCyAzjAdBgNVHQ4EFgQU+3zn+CEg6a2xPqlBXvn64hUyoB4wDQYJ
+KoZIhvcNAQELBQADggEBAEh76h1GtJ0pj04in+RUymB7fqPh6HFILkOLlTPnveyXCoHYT2M46DET
+EA/NKYkoF2KA3QiZ1b+PMViuTYG2pDs71eFVPADuBCGf9IFufCDY9mPvjQiFDlLNMknXxACD8TjC
+hqz+uZT2uLPw/YxkJIsCxrTQJ//ga/fHfZDrKgQfbVzxjD/4WKDe8HktjKcn+NWGPJNMgmO+IHrK
+if6TB1xTo32W9QzwoXvBdLnziAUGZZghEulq6h3RCMzKPzpx5JiLlOz6JzqXHvrua+yUbr4A29Vy
+vkwWgJWjyvJd2uq9MQ9l49kkrD84m41PSwpaHO99nEHRgRykopxIt8AHsIQ=
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+0MGnj6yX2QHklGadAfTBxssvP+2fYegPpNGXfEmPXZXrWeME2BqIbO+hKXTuwUucRK6RvQJTjgzN
+gOhQx3HcclRwQB4xj/14hOoZSeQ3haw/Xjl4WofsWizM5j/g1iWBgxi3xk/aREfKKb0ulBMtP/WY
+FpSRjZ/Z7m5QKii0feJPxbf+wrZ+UvNZ8uBdO+SEmbhS/DVESsEWzXn6StbQpa2dno2aIOGZXQKc
+UY2d3WZ4Zk+zawFcRUYslVIrOhMb0e3+hbJEtFwm5ekehdNimSozYyyLGZJonLlvr8PfmvQ1ceu7
+enWCRfZrRWAlDHFaouLdtU/OmXc+Um7cLwz8VQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+</ds:Signature></oval_definitions>

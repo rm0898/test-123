@@ -1,0 +1,46 @@
+<oval_definitions xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" xmlns:ind="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent" xmlns:linux="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux" xmlns:oval="http://oval.mitre.org/XMLSchema/oval-common-5" xmlns:shell="http://oval.mitre.org/XMLSchema/oval-definitions-5#cmd" xmlns:unix="http://oval.mitre.org/XMLSchema/oval-definitions-5#unix" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://oval.mitre.org/XMLSchema/oval-definitions-5 http://oval.mitre.org/language/version5.11/ovaldefinition/complete/oval-definitions-schema.xsd http://oval.mitre.org/XMLSchema/oval-common-5 http://oval.mitre.org/language/version5.11/ovaldefinition/complete/oval-common-schema.xsd http://oval.mitre.org/XMLSchema/oval-definitions-5#cmd x-shellcommand-schema.xsd http://oval.mitre.org/XMLSchema/oval-definitions-5#linux http://oval.mitre.org/language/version5.11/ovaldefinition/complete/linux-definitions-schema.xsd http://oval.mitre.org/XMLSchema/oval-definitions-5#unix http://oval.mitre.org/language/version5.10/ovaldefinition/complete/unix-definitions-schema.xsd http://oval.mitre.org/XMLSchema/oval-definitions-5#independent http://oval.mitre.org/language/version5.11/ovaldefinition/complete/independent-definitions-schema.xsd">
+  <generator>
+    <oval:product_name>Center for Internet Security</oval:product_name>
+    <oval:schema_version>5.11</oval:schema_version>
+    <oval:timestamp>2017-01-30T20:29:05-08:00</oval:timestamp>
+  </generator>
+  <definitions>
+    <definition class="inventory" id="oval:org.cisecurity.benchmarks.o_fedora_linux:def:101" version="1">
+      <metadata>
+        <title>Ensure Fedora 28 Family Linux 28 is installed</title>
+        <affected family="unix">
+          <product>Fedora 28 Family Linux 28</product>
+        </affected>
+        <description>Ensure Fedora 28 Family Linux 28 is installed</description>
+      </metadata>
+      <criteria operator="AND">
+        <criterion negate="false" test_ref="oval:org.cisecurity.benchmarks.o_fedora_linux:tst:101"/>
+        <criterion negate="false" test_ref="oval:org.cisecurity.benchmarks.o_fedora_linux:tst:102"/>
+      </criteria>
+    </definition>
+  </definitions>
+  <tests>
+    <ind:family_test xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent" check="only one" check_existence="at_least_one_exists" comment="installed operating system is part of the Unix family" id="oval:org.cisecurity.benchmarks.o_fedora_linux:tst:101" version="1">
+      <ind:object object_ref="oval:org.cisecurity.benchmarks.o_fedora_linux:obj:101"/>
+      <ind:state state_ref="oval:org.cisecurity.benchmarks.o_fedora_linux:ste:101"/>
+    </ind:family_test>
+    <linux:rpminfo_test check="at least one" check_existence="at_least_one_exists" comment="centos-release is version 7" id="oval:org.cisecurity.benchmarks.o_fedora_linux:tst:102" version="1">
+      <linux:object object_ref="oval:org.cisecurity.benchmarks.o_fedora_linux:obj:102"/>
+      <linux:state state_ref="oval:org.cisecurity.benchmarks.o_fedora_linux:ste:102"/>
+    </linux:rpminfo_test>
+  </tests>
+  <objects>
+    <ind:family_object xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent" id="oval:org.cisecurity.benchmarks.o_fedora_linux:obj:101" version="1"/>
+    <linux:rpminfo_object id="oval:org.cisecurity.benchmarks.o_fedora_linux:obj:102" version="1">
+      <linux:name operation="pattern match">fedora-release-.*</linux:name>
+    </linux:rpminfo_object>
+  </objects>
+  <states>
+    <ind:family_state id="oval:org.cisecurity.benchmarks.o_fedora_linux:ste:101" version="1">
+      <ind:family>unix</ind:family>
+    </ind:family_state>
+    <linux:rpminfo_state id="oval:org.cisecurity.benchmarks.o_fedora_linux:ste:102" version="1">
+      <linux:version operation="pattern match">^8</linux:version>
+    </linux:rpminfo_state>
+  </states>
+</oval_definitions>

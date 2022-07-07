@@ -1,0 +1,80 @@
+###########################################################################
+                       About CIS-CAT PRO ASSESSOR
+###########################################################################
+The Center for Internet Security Configuration Assessment Tool (CIS-CAT) 
+is a product of the Center for Internet Security. For more information,
+please visit https://www.cisecurity.org/cis-benchmarks/.
+
+Please review the following CIS SecureSuite Membership Terms of Use:
+https://www.cisecurity.org/cis-securesuite/cis-securesuite-membership-terms-of-use/
+
+###########################################################################
+                          Third-Party Licenses
+###########################################################################
+
+A number of 3rd-party licensed libraries were used in the construction/maintenance of CIS-CAT Pro
+Assessor v4.  Libraries are listed, organized by their respective licenses, the text of which can 
+be found in the "licenses" folder of the CIS-CAT Pro Assessor v4 distribution.
+
+- Apache License, version 2.0
+  - Groovy --------------------------------------- v2.5.14
+  - winrm4j -------------------------------------- v0.12.3
+  - smbj ----------------------------------------- v0.8.0
+  - MapDB ---------------------------------------- v3.0.8
+  - Apache Commons IO ---------------------------- v2.7
+  - Apache Commons CLI --------------------------- v.1.4
+  - GPars ---------------------------------------- v1.2.1
+  - HttpBuilder-NG ------------------------------- v1.0.4
+  - OpenDXL Java Client -------------------------- v0.2.5
+  - JJWT :: API ---------------------------------- v0.11.2
+  - JJWT :: Impl --------------------------------- v0.11.2
+  - JJWT :: Extensions :: Jackson ---------------- v0.11.2
+  - jPowerShell ---------------------------------- v3.1.1
+  - HTTP Builder NG Core ------------------------- v1.0.4
+  - HTTP Builder NG OkHttp ----------------------- v1.0.4
+  - OkHttp --------------------------------------- v3.14.9
+  - OkHttp Digest -------------------------------- v2.5
+  - Jackson Databind ----------------------------- v2.12.4
+  - Apache Commons Lang -------------------------- v3.8.1
+  - SnakeYAML ------------------------------------ v1.26
+  - Apache Ant Core ------------------------------ v1.9.16
+  - Kotlin Stdlib -------------------------------- v1.4.21
+  - JAX WS RI Runtime (jaxws Rt) ----------------- v2.3.2
+  - Apache CXF Runtime HTTP Transport ------------ v3.3.11
+  - Apache CXF Runtime HTTP Async Transport ------ v3.3.11
+  - Apache CXF Runtime JAX WS Frontend ----------- v3.3.11
+
+- GNU Lesser General Public License, version 2.1
+  - Logback Core --------------------------------- v1.2.3
+  - Logback Classic ------------------------------ v1.2.3
+  - MariaDB Java Client -------------------------- v2.7.2
+
+- MIT License
+  - jni4net -------------------------------------- v0.8.8.0
+  - slf4j ---------------------------------------- v1.7.28
+  - Microsoft SQL Server JDBC Driver ------------- v9.2.0.jre8
+
+- Mozilla Public License, version 1.0
+  - Saxon-HE ------------------------------------- v9.9.0-2
+
+- BSD-style License
+  - Jsch ----------------------------------------- v0.1.55
+  - PostgreSQL JDBC Driver ----------------------- v4.2.13
+
+- Oracle Technology License
+  - Ojdbc8 --------------------------------------- v21.1.0.0
+
+- Common Development And Distribution License
+  - JAXB API ------------------------------------- v2.3.1
+  - Javax JWS API -------------------------------- v1.1
+  - Old JAXB Runtime ----------------------------- v2.4.0-b180830.0438
+  - JavaBeans Activation Framework --------------- v1.2.0
+
+- UnboundID LDAP SDK Free User License
+  - UnboundID LDAP SDK for Java ------------------ v6.0.0
+
+- Eclipse Distribution License, version 1.0
+ - Jakarta SOAP Implementation ------------------- v1.5.1
+
+- Bouncy Castle License
+ - Bouncy Castle Provider ------------------------ v1.61
